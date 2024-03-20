@@ -8,7 +8,7 @@ const Guitar = ({ guitar, addToCart }) => {
         <img className="img-fluid" src={`/img/${image}.jpg`} alt={name} />
       </div>
       <div className="col-8">
-        <h3 className="text-black fs-4 fw-bold text-uppercase">Lukather</h3>
+        <h3 className="text-black fs-4 fw-bold text-uppercase">{name}</h3>
         <p>{description}</p>
         <p className="fw-black text-primary fs-3">${price}</p>
         <button
